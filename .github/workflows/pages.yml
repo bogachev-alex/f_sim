@@ -1,0 +1,54 @@
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - uses: Swatinem/rust-cache@v2
+      - name: wasm-bindgen-cli
+        run: cargo install wasm-bindgen-cli --version 0.2.129 --locked
+      - name: Типы TypeScript из Rust
+        run: TS_RS_EXPORT_DIR="$PWD/viewer/src/generated" cargo test -q -p fsim-wasm export_bindings
+      - name: WASM
+        run: |
+          cargo build -p fsim-wasm --target wasm32-unknown-unknown --release
+          wasm-bindgen --target web --out-dir viewer/src/wasm target/wasm32-unknown-unknown/release/fsim_wasm.wasm
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: viewer/package-lock.json
+      - name: Сборка визуализатора
+        working-directory: viewer
+        run: |
+          npm ci
+          npm run typecheck
+          npm test
+          BASE_PATH=/${{ github.event.repository.name }}/ npm run build
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: viewer/dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

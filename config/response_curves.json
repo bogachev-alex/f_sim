@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "physical":    { "type": "logistic",  "center": 0.70, "steepness": 5.0 },
+    "technical":   { "type": "piecewise", "knots": [[0.0, 0.0], [0.5, 0.46], [0.8, 0.80], [1.0, 1.0]] },
+    "mental":      { "type": "piecewise", "knots": [[0.0, 0.0], [0.5, 0.47], [0.8, 0.81], [1.0, 1.0]] },
+    "goalkeeping": { "type": "piecewise", "knots": [[0.0, 0.0], [0.5, 0.46], [0.8, 0.80], [1.0, 1.0]] },
+    "traits":      { "type": "linear" }
+  },
+  "overrides": {}
+}

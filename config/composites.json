@@ -1,0 +1,15 @@
+{
+  "short_pass":   { "passing": 0.45, "technique": 0.20, "vision": 0.20, "first_touch": 0.15 },
+  "long_pass":    { "passing": 0.40, "vision": 0.25, "technique": 0.20, "crossing": 0.15 },
+  "cross":        { "crossing": 0.60, "technique": 0.25, "vision": 0.15 },
+  "control":      { "first_touch": 0.55, "technique": 0.25, "balance": 0.10, "composure": 0.10 },
+  "dribble":      { "dribbling": 0.40, "agility": 0.20, "acceleration": 0.15, "technique": 0.15, "balance": 0.10 },
+  "finish":       { "finishing": 0.50, "composure": 0.20, "technique": 0.15, "off_the_ball": 0.15 },
+  "long_shot":    { "long_shots": 0.60, "technique": 0.25, "composure": 0.15 },
+  "tackle":       { "tackling": 0.45, "positioning": 0.20, "strength": 0.15, "aggression": 0.10, "bravery": 0.10 },
+  "aerial":       { "jumping_reach": 0.35, "heading": 0.35, "strength": 0.20, "bravery": 0.10 },
+  "shield":       { "strength": 0.45, "balance": 0.30, "technique": 0.25 },
+  "awareness":    { "anticipation": 0.40, "concentration": 0.30, "vision": 0.30 },
+  "press_resist": { "first_touch": 0.30, "composure": 0.30, "agility": 0.20, "vision": 0.20 },
+  "gk_shot_stop": { "reflexes": 0.45, "handling": 0.25, "gk_positioning": 0.30 }
+}

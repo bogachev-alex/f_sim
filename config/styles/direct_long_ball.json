@@ -1,0 +1,30 @@
+{
+  "name": "direct_long_ball",
+  "description": "Прямолинейная игра: длинные передачи на нападающего и борьба за подбор.",
+  "default_formation": "4-4-2",
+  "buildup_short": 0.1,
+  "tempo": 0.65,
+  "directness": 0.95,
+  "width_in": 0.6,
+  "overload_side": "none",
+  "final_third": {
+    "crosses": 0.4,
+    "through": 0.25,
+    "long_shots": 0.2,
+    "combinations": 0.15
+  },
+  "patience": 0.1,
+  "fullback_role": "stay",
+  "block_height": 0.45,
+  "line_height": 0.4,
+  "compactness": 0.45,
+  "press_intensity": 0.45,
+  "press_triggers": [
+    "back_pass",
+    "touchline"
+  ],
+  "marking": 0.4,
+  "offside_trap": 0.2,
+  "counter_press": 0.3,
+  "counter_attack": 0.7
+}

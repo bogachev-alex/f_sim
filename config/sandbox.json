@@ -1,0 +1,10 @@
+{
+  "retarget_period_s": 4.0,
+  "kick_period_s": 6.0,
+  "kick_lift_max_ratio": 0.6,
+  "wind_x_ms": 2.0,
+  "wind_y_ms": 1.0,
+  "rain": 0.0,
+  "pitch_bounce": 0.5,
+  "uniform_attr": 0.6
+}

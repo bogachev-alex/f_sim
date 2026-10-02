@@ -1,0 +1,9 @@
+{
+  "match_budget_s": 0.5,
+  "batch_matches": 10000,
+  "batch_cores": 8,
+  "batch_budget_min": 15.0,
+  "tick_allocs_max": 0,
+  "full_match_regression_pct": 10.0,
+  "browser_speedup": 16
+}

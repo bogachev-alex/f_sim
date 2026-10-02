@@ -1,0 +1,7 @@
+{
+  "physical": ["pace", "acceleration", "agility", "balance", "strength", "stamina", "natural_fitness", "jumping_reach", "recovery"],
+  "technical": ["passing", "crossing", "long_shots", "finishing", "first_touch", "technique", "dribbling", "heading", "tackling", "marking", "free_kicks", "corners", "penalties", "long_throws"],
+  "mental": ["vision", "decisions", "anticipation", "positioning", "off_the_ball", "composure", "concentration", "work_rate", "teamwork", "aggression", "bravery", "flair"],
+  "goalkeeping": ["reflexes", "handling", "one_on_ones", "aerial_command", "kicking", "throwing", "rushing_out", "gk_positioning"],
+  "traits": ["consistency", "big_matches", "pressure_handling", "temperament", "leadership"]
+}

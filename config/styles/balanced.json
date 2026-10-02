@@ -1,0 +1,31 @@
+{
+  "name": "balanced",
+  "description": "Сбалансированный стиль: все параметры в середине шкалы.",
+  "default_formation": "4-2-3-1",
+  "buildup_short": 0.5,
+  "tempo": 0.55,
+  "directness": 0.5,
+  "width_in": 0.6,
+  "overload_side": "none",
+  "final_third": {
+    "crosses": 0.25,
+    "through": 0.25,
+    "long_shots": 0.15,
+    "combinations": 0.35
+  },
+  "patience": 0.5,
+  "fullback_role": "overlapping",
+  "block_height": 0.5,
+  "line_height": 0.5,
+  "compactness": 0.5,
+  "press_intensity": 0.5,
+  "press_triggers": [
+    "back_pass",
+    "bad_touch",
+    "touchline"
+  ],
+  "marking": 0.3,
+  "offside_trap": 0.3,
+  "counter_press": 0.5,
+  "counter_attack": 0.5
+}

@@ -1,0 +1,32 @@
+{
+  "name": "positional",
+  "description": "Позиционная игра: терпеливое владение через короткие передачи, высокая линия.",
+  "default_formation": "4-3-3",
+  "buildup_short": 0.95,
+  "tempo": 0.45,
+  "directness": 0.15,
+  "width_in": 0.85,
+  "overload_side": "none",
+  "final_third": {
+    "crosses": 0.15,
+    "through": 0.25,
+    "long_shots": 0.1,
+    "combinations": 0.5
+  },
+  "patience": 0.9,
+  "fullback_role": "inverted",
+  "block_height": 0.8,
+  "line_height": 0.8,
+  "compactness": 0.7,
+  "press_intensity": 0.7,
+  "press_triggers": [
+    "back_pass",
+    "bad_touch",
+    "back_to_goal",
+    "pass_to_keeper"
+  ],
+  "marking": 0.15,
+  "offside_trap": 0.35,
+  "counter_press": 0.8,
+  "counter_attack": 0.25
+}

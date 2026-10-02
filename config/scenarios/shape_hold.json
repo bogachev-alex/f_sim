@@ -1,0 +1,40 @@
+{
+  "name": "shape_hold",
+  "description": "Мяч стоит в центре: проверка удержания формы. Первые 20 с владеет команда A, затем команда B.",
+  "duration_s": 40.0,
+  "formations": [
+    "4-3-3",
+    "4-3-3"
+  ],
+  "styles": [
+    "positional",
+    "low_block_counter"
+  ],
+  "possession": [
+    {
+      "t": 0,
+      "team": 0
+    },
+    {
+      "t": 20,
+      "team": 1
+    }
+  ],
+  "ball": [
+    {
+      "t": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "t": 40,
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "score": [
+    0,
+    0
+  ],
+  "minute": 0
+}

@@ -1,0 +1,15 @@
+[package]
+name = "fsim-cli"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "fsim"
+path = "src/main.rs"
+
+[dependencies]
+fsim-core.workspace = true
+fsim-gen.workspace = true
+clap.workspace = true
+serde_json.workspace = true

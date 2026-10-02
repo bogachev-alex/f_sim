@@ -1,0 +1,46 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/fsim-core",
+    "crates/fsim-models",
+    "crates/fsim-gen",
+    "crates/fsim-analysis",
+    "crates/fsim-cli",
+    "crates/fsim-wasm",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[workspace.dependencies]
+rayon = "1"
+rand_core = "0.6"
+rand_xoshiro = "0.6"
+libm = "0.2"
+glam = { version = "0.29", default-features = false, features = ["libm"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+clap = { version = "4", features = ["derive"] }
+criterion = { version = "0.5", default-features = false, features = ["cargo_bench_support"] }
+proptest = "1"
+ts-rs = "10"
+thiserror = "2"
+wasm-bindgen = "=0.2.129"
+
+fsim-core = { path = "crates/fsim-core" }
+fsim-models = { path = "crates/fsim-models" }
+fsim-gen = { path = "crates/fsim-gen" }
+fsim-analysis = { path = "crates/fsim-analysis" }
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+# fast-math запрещён: никаких -ffast-math и unsafe-алгебры; здесь только штатные флаги.
+
+[profile.bench]
+inherits = "release"
+debug = true

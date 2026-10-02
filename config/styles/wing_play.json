@@ -1,0 +1,31 @@
+{
+  "name": "wing_play",
+  "description": "Игра через фланги: широкая атака, высокие фланговые защитники и навесы.",
+  "default_formation": "4-2-3-1",
+  "buildup_short": 0.55,
+  "tempo": 0.6,
+  "directness": 0.55,
+  "width_in": 0.95,
+  "overload_side": "right",
+  "final_third": {
+    "crosses": 0.5,
+    "through": 0.15,
+    "long_shots": 0.1,
+    "combinations": 0.25
+  },
+  "patience": 0.5,
+  "fullback_role": "overlapping",
+  "block_height": 0.55,
+  "line_height": 0.55,
+  "compactness": 0.4,
+  "press_intensity": 0.55,
+  "press_triggers": [
+    "back_pass",
+    "touchline",
+    "bad_touch"
+  ],
+  "marking": 0.3,
+  "offside_trap": 0.3,
+  "counter_press": 0.45,
+  "counter_attack": 0.55
+}

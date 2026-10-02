@@ -1,0 +1,410 @@
+{
+  "4-3-3": [
+    {
+      "pos": "GK",
+      "x": 0.04,
+      "y": 0.5,
+      "role": "classic_keeper"
+    },
+    {
+      "pos": "FB",
+      "x": 0.25,
+      "y": 0.9,
+      "role": "overlapping_fb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.2,
+      "y": 0.65,
+      "role": "ball_playing_cb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.2,
+      "y": 0.35,
+      "role": "stopper_cb"
+    },
+    {
+      "pos": "FB",
+      "x": 0.25,
+      "y": 0.1,
+      "role": "overlapping_fb"
+    },
+    {
+      "pos": "CM",
+      "x": 0.5,
+      "y": 0.7,
+      "role": "box_to_box"
+    },
+    {
+      "pos": "DM",
+      "x": 0.4,
+      "y": 0.5,
+      "role": "anchor_dm"
+    },
+    {
+      "pos": "CM",
+      "x": 0.5,
+      "y": 0.3,
+      "role": "mezzala"
+    },
+    {
+      "pos": "W",
+      "x": 0.75,
+      "y": 0.88,
+      "role": "classic_winger"
+    },
+    {
+      "pos": "ST",
+      "x": 0.82,
+      "y": 0.5,
+      "role": "line_striker"
+    },
+    {
+      "pos": "W",
+      "x": 0.75,
+      "y": 0.12,
+      "role": "inverted_winger"
+    }
+  ],
+  "4-2-3-1": [
+    {
+      "pos": "GK",
+      "x": 0.04,
+      "y": 0.5,
+      "role": "classic_keeper"
+    },
+    {
+      "pos": "FB",
+      "x": 0.25,
+      "y": 0.9,
+      "role": "overlapping_fb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.2,
+      "y": 0.65,
+      "role": "ball_playing_cb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.2,
+      "y": 0.35,
+      "role": "stopper_cb"
+    },
+    {
+      "pos": "FB",
+      "x": 0.25,
+      "y": 0.1,
+      "role": "overlapping_fb"
+    },
+    {
+      "pos": "DM",
+      "x": 0.4,
+      "y": 0.62,
+      "role": "anchor_dm"
+    },
+    {
+      "pos": "DM",
+      "x": 0.4,
+      "y": 0.38,
+      "role": "deep_playmaker"
+    },
+    {
+      "pos": "W",
+      "x": 0.68,
+      "y": 0.85,
+      "role": "classic_winger"
+    },
+    {
+      "pos": "AM",
+      "x": 0.64,
+      "y": 0.5,
+      "role": "attacking_mid"
+    },
+    {
+      "pos": "W",
+      "x": 0.68,
+      "y": 0.15,
+      "role": "inverted_winger"
+    },
+    {
+      "pos": "ST",
+      "x": 0.82,
+      "y": 0.5,
+      "role": "target_man"
+    }
+  ],
+  "4-4-2": [
+    {
+      "pos": "GK",
+      "x": 0.04,
+      "y": 0.5,
+      "role": "classic_keeper"
+    },
+    {
+      "pos": "FB",
+      "x": 0.25,
+      "y": 0.9,
+      "role": "overlapping_fb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.2,
+      "y": 0.65,
+      "role": "ball_playing_cb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.2,
+      "y": 0.35,
+      "role": "stopper_cb"
+    },
+    {
+      "pos": "FB",
+      "x": 0.25,
+      "y": 0.1,
+      "role": "overlapping_fb"
+    },
+    {
+      "pos": "W",
+      "x": 0.5,
+      "y": 0.88,
+      "role": "classic_winger"
+    },
+    {
+      "pos": "CM",
+      "x": 0.48,
+      "y": 0.62,
+      "role": "box_to_box"
+    },
+    {
+      "pos": "CM",
+      "x": 0.48,
+      "y": 0.38,
+      "role": "deep_playmaker"
+    },
+    {
+      "pos": "W",
+      "x": 0.5,
+      "y": 0.12,
+      "role": "classic_winger"
+    },
+    {
+      "pos": "ST",
+      "x": 0.78,
+      "y": 0.62,
+      "role": "target_man"
+    },
+    {
+      "pos": "ST",
+      "x": 0.78,
+      "y": 0.38,
+      "role": "pressing_forward"
+    }
+  ],
+  "3-5-2": [
+    {
+      "pos": "GK",
+      "x": 0.04,
+      "y": 0.5,
+      "role": "classic_keeper"
+    },
+    {
+      "pos": "CB",
+      "x": 0.2,
+      "y": 0.75,
+      "role": "stopper_cb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.18,
+      "y": 0.5,
+      "role": "ball_playing_cb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.2,
+      "y": 0.25,
+      "role": "stopper_cb"
+    },
+    {
+      "pos": "WB",
+      "x": 0.5,
+      "y": 0.93,
+      "role": "overlapping_fb"
+    },
+    {
+      "pos": "CM",
+      "x": 0.5,
+      "y": 0.68,
+      "role": "box_to_box"
+    },
+    {
+      "pos": "DM",
+      "x": 0.4,
+      "y": 0.5,
+      "role": "anchor_dm"
+    },
+    {
+      "pos": "CM",
+      "x": 0.5,
+      "y": 0.32,
+      "role": "mezzala"
+    },
+    {
+      "pos": "WB",
+      "x": 0.5,
+      "y": 0.07,
+      "role": "overlapping_fb"
+    },
+    {
+      "pos": "ST",
+      "x": 0.78,
+      "y": 0.62,
+      "role": "target_man"
+    },
+    {
+      "pos": "ST",
+      "x": 0.78,
+      "y": 0.38,
+      "role": "pressing_forward"
+    }
+  ],
+  "5-3-2": [
+    {
+      "pos": "GK",
+      "x": 0.04,
+      "y": 0.5,
+      "role": "classic_keeper"
+    },
+    {
+      "pos": "WB",
+      "x": 0.3,
+      "y": 0.93,
+      "role": "overlapping_fb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.2,
+      "y": 0.75,
+      "role": "stopper_cb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.18,
+      "y": 0.5,
+      "role": "ball_playing_cb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.2,
+      "y": 0.25,
+      "role": "stopper_cb"
+    },
+    {
+      "pos": "WB",
+      "x": 0.3,
+      "y": 0.07,
+      "role": "overlapping_fb"
+    },
+    {
+      "pos": "CM",
+      "x": 0.5,
+      "y": 0.7,
+      "role": "box_to_box"
+    },
+    {
+      "pos": "CM",
+      "x": 0.46,
+      "y": 0.5,
+      "role": "deep_playmaker"
+    },
+    {
+      "pos": "CM",
+      "x": 0.5,
+      "y": 0.3,
+      "role": "mezzala"
+    },
+    {
+      "pos": "ST",
+      "x": 0.78,
+      "y": 0.62,
+      "role": "target_man"
+    },
+    {
+      "pos": "ST",
+      "x": 0.78,
+      "y": 0.38,
+      "role": "pressing_forward"
+    }
+  ],
+  "3-4-3": [
+    {
+      "pos": "GK",
+      "x": 0.04,
+      "y": 0.5,
+      "role": "classic_keeper"
+    },
+    {
+      "pos": "CB",
+      "x": 0.2,
+      "y": 0.75,
+      "role": "stopper_cb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.18,
+      "y": 0.5,
+      "role": "ball_playing_cb"
+    },
+    {
+      "pos": "CB",
+      "x": 0.2,
+      "y": 0.25,
+      "role": "stopper_cb"
+    },
+    {
+      "pos": "WB",
+      "x": 0.5,
+      "y": 0.93,
+      "role": "overlapping_fb"
+    },
+    {
+      "pos": "CM",
+      "x": 0.48,
+      "y": 0.62,
+      "role": "box_to_box"
+    },
+    {
+      "pos": "CM",
+      "x": 0.48,
+      "y": 0.38,
+      "role": "deep_playmaker"
+    },
+    {
+      "pos": "WB",
+      "x": 0.5,
+      "y": 0.07,
+      "role": "overlapping_fb"
+    },
+    {
+      "pos": "W",
+      "x": 0.75,
+      "y": 0.85,
+      "role": "classic_winger"
+    },
+    {
+      "pos": "ST",
+      "x": 0.82,
+      "y": 0.5,
+      "role": "line_striker"
+    },
+    {
+      "pos": "W",
+      "x": 0.75,
+      "y": 0.15,
+      "role": "inverted_winger"
+    }
+  ]
+}

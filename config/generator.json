@@ -1,0 +1,323 @@
+{
+ "default_quality": 0.62,
+ "attr_floor": 0.02,
+ "attr_ceil": 0.98,
+ "talent_sd": 0.05,
+ "noise_sd": {
+  "physical": 0.07,
+  "technical": 0.07,
+  "mental": 0.07,
+  "goalkeeping": 0.07,
+  "traits": 0.15
+ },
+ "fixed_mean": {
+  "traits": 0.5
+ },
+ "bench": [
+  "GK",
+  "CB",
+  "FB",
+  "CM",
+  "AM",
+  "W",
+  "ST"
+ ],
+ "bench_quality_delta": -0.05,
+ "height_global": {
+  "mean": 178.0,
+  "sd": 7.0
+ },
+ "height_attr_shift_per_sd": {
+  "jumping_reach": 0.05,
+  "strength": 0.04,
+  "agility": -0.04,
+  "acceleration": -0.02,
+  "balance": -0.02,
+  "heading": 0.02
+ },
+ "foot_probs": {
+  "R": 0.7,
+  "L": 0.22,
+  "both": 0.08
+ },
+ "weak_foot": {
+  "mean": 0.45,
+  "sd": 0.15
+ },
+ "affinity_default": 0.2,
+ "affinity": {
+  "GK": {},
+  "CB": {
+   "FB": 0.6,
+   "DM": 0.55,
+   "WB": 0.45
+  },
+  "FB": {
+   "WB": 0.9,
+   "CB": 0.55,
+   "W": 0.45,
+   "DM": 0.4,
+   "CM": 0.35
+  },
+  "WB": {
+   "FB": 0.9,
+   "W": 0.6,
+   "CB": 0.4,
+   "CM": 0.4,
+   "DM": 0.35
+  },
+  "DM": {
+   "CM": 0.8,
+   "CB": 0.55,
+   "FB": 0.4,
+   "AM": 0.4
+  },
+  "CM": {
+   "DM": 0.8,
+   "AM": 0.75,
+   "W": 0.4,
+   "FB": 0.35
+  },
+  "AM": {
+   "CM": 0.75,
+   "W": 0.7,
+   "ST": 0.6,
+   "DM": 0.4
+  },
+  "W": {
+   "AM": 0.7,
+   "ST": 0.55,
+   "WB": 0.6,
+   "FB": 0.4,
+   "CM": 0.4
+  },
+  "ST": {
+   "AM": 0.6,
+   "W": 0.55,
+   "CM": 0.25
+  }
+ },
+ "positions": {
+  "GK": {
+   "group_offsets": {
+    "physical": -0.05,
+    "technical": -0.35,
+    "mental": -0.02,
+    "goalkeeping": 0.12,
+    "traits": 0
+   },
+   "attr_offsets": {
+    "passing": 0.1,
+    "kicking": 0.0
+   },
+   "height_mean_cm": 189,
+   "height_sd_cm": 4.5,
+   "bmi_mean": 23.0,
+   "bmi_sd": 1.0
+  },
+  "CB": {
+   "group_offsets": {
+    "physical": 0,
+    "technical": 0,
+    "mental": 0,
+    "goalkeeping": -0.58,
+    "traits": 0
+   },
+   "attr_offsets": {
+    "tackling": 0.12,
+    "marking": 0.12,
+    "heading": 0.1,
+    "jumping_reach": 0.04,
+    "strength": 0.06,
+    "positioning": 0.06,
+    "pace": -0.04,
+    "dribbling": -0.12,
+    "finishing": -0.15,
+    "flair": -0.1,
+    "crossing": -0.12,
+    "long_shots": -0.1,
+    "passing": -0.03
+   },
+   "height_mean_cm": 186,
+   "height_sd_cm": 4.5,
+   "bmi_mean": 23.0,
+   "bmi_sd": 1.0
+  },
+  "FB": {
+   "group_offsets": {
+    "physical": 0,
+    "technical": 0,
+    "mental": 0,
+    "goalkeeping": -0.58,
+    "traits": 0
+   },
+   "attr_offsets": {
+    "pace": 0.06,
+    "stamina": 0.08,
+    "crossing": 0.06,
+    "tackling": 0.04,
+    "marking": 0.04,
+    "work_rate": 0.06,
+    "finishing": -0.12,
+    "flair": -0.03
+   },
+   "height_mean_cm": 177,
+   "height_sd_cm": 4.5,
+   "bmi_mean": 22.2,
+   "bmi_sd": 1.0
+  },
+  "WB": {
+   "group_offsets": {
+    "physical": 0,
+    "technical": 0,
+    "mental": 0,
+    "goalkeeping": -0.58,
+    "traits": 0
+   },
+   "attr_offsets": {
+    "pace": 0.08,
+    "stamina": 0.1,
+    "crossing": 0.1,
+    "work_rate": 0.08,
+    "tackling": 0.0,
+    "finishing": -0.1
+   },
+   "height_mean_cm": 177,
+   "height_sd_cm": 4.5,
+   "bmi_mean": 22.2,
+   "bmi_sd": 1.0
+  },
+  "DM": {
+   "group_offsets": {
+    "physical": 0,
+    "technical": 0,
+    "mental": 0,
+    "goalkeeping": -0.58,
+    "traits": 0
+   },
+   "attr_offsets": {
+    "tackling": 0.12,
+    "marking": 0.06,
+    "positioning": 0.08,
+    "passing": 0.04,
+    "work_rate": 0.06,
+    "teamwork": 0.05,
+    "aggression": 0.05,
+    "finishing": -0.1,
+    "pace": -0.04,
+    "flair": -0.08
+   },
+   "height_mean_cm": 181,
+   "height_sd_cm": 5.0,
+   "bmi_mean": 22.8,
+   "bmi_sd": 1.0
+  },
+  "CM": {
+   "group_offsets": {
+    "physical": 0,
+    "technical": 0,
+    "mental": 0,
+    "goalkeeping": -0.58,
+    "traits": 0
+   },
+   "attr_offsets": {
+    "passing": 0.08,
+    "vision": 0.06,
+    "stamina": 0.06,
+    "teamwork": 0.06,
+    "first_touch": 0.04,
+    "technique": 0.04,
+    "work_rate": 0.04
+   },
+   "height_mean_cm": 178,
+   "height_sd_cm": 5.0,
+   "bmi_mean": 22.4,
+   "bmi_sd": 1.0
+  },
+  "AM": {
+   "group_offsets": {
+    "physical": 0,
+    "technical": 0,
+    "mental": 0,
+    "goalkeeping": -0.58,
+    "traits": 0
+   },
+   "attr_offsets": {
+    "vision": 0.1,
+    "technique": 0.1,
+    "passing": 0.06,
+    "flair": 0.08,
+    "dribbling": 0.06,
+    "finishing": 0.03,
+    "long_shots": 0.06,
+    "tackling": -0.12,
+    "marking": -0.12,
+    "heading": -0.08,
+    "strength": -0.05
+   },
+   "height_mean_cm": 175,
+   "height_sd_cm": 5.0,
+   "bmi_mean": 21.9,
+   "bmi_sd": 1.0
+  },
+  "W": {
+   "group_offsets": {
+    "physical": 0,
+    "technical": 0,
+    "mental": 0,
+    "goalkeeping": -0.58,
+    "traits": 0
+   },
+   "attr_offsets": {
+    "pace": 0.1,
+    "acceleration": 0.08,
+    "dribbling": 0.1,
+    "crossing": 0.06,
+    "flair": 0.08,
+    "agility": 0.06,
+    "tackling": -0.15,
+    "marking": -0.15,
+    "heading": -0.12,
+    "strength": -0.06
+   },
+   "height_mean_cm": 174,
+   "height_sd_cm": 5.0,
+   "bmi_mean": 21.7,
+   "bmi_sd": 1.0
+  },
+  "ST": {
+   "group_offsets": {
+    "physical": 0,
+    "technical": 0,
+    "mental": 0,
+    "goalkeeping": -0.58,
+    "traits": 0
+   },
+   "attr_offsets": {
+    "finishing": 0.14,
+    "off_the_ball": 0.1,
+    "composure": 0.04,
+    "heading": 0.04,
+    "strength": 0.03,
+    "pace": 0.04,
+    "tackling": -0.2,
+    "marking": -0.2,
+    "vision": -0.04,
+    "crossing": -0.1
+   },
+   "height_mean_cm": 183,
+   "height_sd_cm": 5.5,
+   "bmi_mean": 23.0,
+   "bmi_sd": 1.0
+  }
+ },
+ "bench_roles": {
+  "GK": "classic_keeper",
+  "CB": "stopper_cb",
+  "FB": "overlapping_fb",
+  "CM": "box_to_box",
+  "AM": "attacking_mid",
+  "W": "classic_winger",
+  "ST": "target_man"
+ }
+}

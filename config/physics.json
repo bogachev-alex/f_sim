@@ -1,0 +1,52 @@
+{
+  "time": {
+    "tick_hz": 20,
+    "half_minutes": 45,
+    "reaction_delay_min_s": 0.15,
+    "reaction_delay_max_s": 0.45
+  },
+  "player": {
+    "max_speed_min_ms": 7.0,
+    "max_speed_max_ms": 9.8,
+    "acceleration_min_ms2": 3.0,
+    "acceleration_max_ms2": 5.5,
+    "deceleration_ms2": 6.0,
+    "lateral_accel_min_ms2": 5.0,
+    "lateral_accel_max_ms2": 9.0,
+    "ball_slowdown_min": 0.10,
+    "ball_slowdown_max": 0.20,
+    "gait_walk_fraction": 0.25,
+    "gait_jog_fraction": 0.60,
+    "radius_m": 0.4
+  },
+  "ball": {
+    "radius_m": 0.11,
+    "ground_pass_speed_min_ms": 10.0,
+    "ground_pass_speed_max_ms": 22.0,
+    "shot_speed_min_ms": 18.0,
+    "shot_speed_max_ms": 34.0,
+    "gravity_ms2": 9.81,
+    "air_drag_per_m": 0.013,
+    "rolling_decel_ms2": 0.9,
+    "bounce_restitution_min": 0.55,
+    "bounce_restitution_max": 0.70,
+    "bounce_tangential_keep": 0.85,
+    "bounce_min_vz_ms": 0.6,
+    "rain_bounce_scale": 0.85,
+    "rain_rolling_scale": 0.7,
+    "substeps": 4
+  },
+  "pitch": {
+    "length_m": 105.0,
+    "width_m": 68.0
+  },
+  "goal": {
+    "width_m": 7.32,
+    "height_m": 2.44,
+    "depth_m": 2.0,
+    "post_radius_m": 0.06,
+    "post_restitution": 0.5,
+    "net_restitution": 0.05,
+    "net_tangential_keep": 0.5
+  }
+}

@@ -1,0 +1,9 @@
+[package]
+name = "fsim-models"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+libm.workspace = true
+fsim-core.workspace = true

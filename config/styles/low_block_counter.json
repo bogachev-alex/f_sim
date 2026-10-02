@@ -1,0 +1,30 @@
+{
+  "name": "low_block_counter",
+  "description": "Низкий блок и контратаки: две компактные линии у своей штрафной, быстрый выход после отбора.",
+  "default_formation": "4-4-2",
+  "buildup_short": 0.3,
+  "tempo": 0.7,
+  "directness": 0.8,
+  "width_in": 0.45,
+  "overload_side": "none",
+  "final_third": {
+    "crosses": 0.25,
+    "through": 0.4,
+    "long_shots": 0.15,
+    "combinations": 0.2
+  },
+  "patience": 0.2,
+  "fullback_role": "stay",
+  "block_height": 0.15,
+  "line_height": 0.15,
+  "compactness": 0.9,
+  "press_intensity": 0.25,
+  "press_triggers": [
+    "back_pass",
+    "pass_to_keeper"
+  ],
+  "marking": 0.5,
+  "offside_trap": 0.0,
+  "counter_press": 0.1,
+  "counter_attack": 0.95
+}

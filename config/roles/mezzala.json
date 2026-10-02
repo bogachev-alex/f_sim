@@ -1,0 +1,15 @@
+{
+  "name": "Мезала",
+  "positions": [
+    "CM"
+  ],
+  "description": "Уходит в полупространство между центром и флангом.",
+  "attack": {
+    "dx_m": 4,
+    "inward_m": -7
+  },
+  "defense": {
+    "dx_m": 0,
+    "inward_m": 0
+  }
+}

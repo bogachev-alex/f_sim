@@ -1,0 +1,33 @@
+{
+  "name": "gegenpress",
+  "description": "Гегенпрессинг: агрессивный контрпрессинг сразу после потери и быстрые атаки после отбора.",
+  "default_formation": "4-3-3",
+  "buildup_short": 0.6,
+  "tempo": 0.85,
+  "directness": 0.65,
+  "width_in": 0.6,
+  "overload_side": "none",
+  "final_third": {
+    "crosses": 0.2,
+    "through": 0.35,
+    "long_shots": 0.15,
+    "combinations": 0.3
+  },
+  "patience": 0.3,
+  "fullback_role": "overlapping",
+  "block_height": 0.85,
+  "line_height": 0.85,
+  "compactness": 0.8,
+  "press_intensity": 0.95,
+  "press_triggers": [
+    "back_pass",
+    "bad_touch",
+    "touchline",
+    "back_to_goal",
+    "pass_to_keeper"
+  ],
+  "marking": 0.5,
+  "offside_trap": 0.6,
+  "counter_press": 0.95,
+  "counter_attack": 0.85
+}

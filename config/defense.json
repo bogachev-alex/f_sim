@@ -1,0 +1,52 @@
+{
+  "period_s": 0.5,
+  "press": {
+    "zone_min_m": 30.0,
+    "zone_max_m": 100.0,
+    "always_threshold": 0.65,
+    "duration_min_s": 3.0,
+    "duration_max_s": 8.0,
+    "max_support": 2,
+    "cover_threshold": 0.5,
+    "cut_offset_m": 1.5,
+    "contact_m": 1.2,
+    "support_lane_frac": 0.4,
+    "support_min_m": 4.0,
+    "cover_back_m": 6.0,
+    "touchline_m": 6.0,
+    "back_pass_speed_ms": 1.0,
+    "keeper_zone_m": 20.0,
+    "engage_zone_m": 45.0,
+    "engage_radius_m": 14.0,
+    "lead_s": 0.5,
+    "contain_speed_ms": 1.5
+  },
+  "counter_press": {
+    "min": 0.2,
+    "duration_min_s": 3.0,
+    "duration_max_s": 6.0,
+    "players_max": 4,
+    "ring_radius_m": 5.0,
+    "ring_spread_deg": 70.0
+  },
+  "marking": {
+    "max_marks": 4,
+    "zone_depth_zonal_m": 24.0,
+    "zone_depth_man_m": 50.0,
+    "goalside_m": 1.5
+  },
+  "assign": {
+    "swap_base_s": 0.8,
+    "group_mismatch_s": 3.0,
+    "back_leave_cost_s": 2.0,
+    "cb_leave_cost_s": 6.0,
+    "cb_press_threshold": 0.8,
+    "stick_min_s": 0.3,
+    "stick_max_s": 1.5,
+    "special_bonus_s": 1000.0,
+    "react_s": 0.3
+  },
+  "owner": {
+    "switch_margin_m": 3.0
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "defense": {
+    "back_line_min_m": 14.0,
+    "back_line_max_m": 44.0,
+    "front_line_min_m": 36.0,
+    "front_line_max_m": 82.0,
+    "depth_loose_m": 48.0,
+    "depth_compact_m": 24.0,
+    "depth_floor_m": 18.0,
+    "width_scale_loose": 1.0,
+    "width_scale_compact": 0.62,
+    "ball_lateral_k_loose": 0.2,
+    "ball_lateral_k_compact": 0.5,
+    "line_follow_k": 0.25,
+    "line_follow_max_m": 8.0,
+    "line_behind_ball_m": 3.0
+  },
+  "attack": {
+    "back_line_min_m": 24.0,
+    "back_line_max_m": 50.0,
+    "front_line_min_m": 62.0,
+    "front_line_max_m": 88.0,
+    "width_scale_min": 0.7,
+    "width_scale_max": 1.15,
+    "ball_lateral_k": 0.2,
+    "line_follow_k": 0.35,
+    "line_follow_max_m": 10.0,
+    "offside_margin_m": 1.0
+  },
+  "keeper": {
+    "base_m": 2.0,
+    "lateral_k": 0.12,
+    "max_lateral_m": 3.0,
+    "line_follow_k": 0.15
+  },
+  "margin_m": 1.5,
+  "phase": {
+    "transition_slow_s": 4.0,
+    "transition_fast_s": 1.5
+  },
+  "line": {
+    "scatter_sd_m": 1.6,
+    "scatter_tau_s": 2.5,
+    "concentration_weight": 0.6,
+    "cohesion_weight": 0.4,
+    "familiarity_weight": 0.4,
+    "default_cohesion": 0.7,
+    "default_familiarity": 0.8
+  },
+  "steering": {
+    "near_m": 1.0,
+    "far_m": 14.0,
+    "work_rate_far_shrink": 0.4
+  }
+}

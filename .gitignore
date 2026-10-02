@@ -1,0 +1,12 @@
+/target
+/viewer/node_modules
+/viewer/dist
+/data/reports/*
+/data/squads/*
+!/data/reports/.gitkeep
+!/data/squads/.gitkeep
+.DS_Store
+/viewer/src/wasm
+/viewer/src/generated
+/files.zip
+/plan/
